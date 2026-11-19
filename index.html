@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tamil Trader Harmonic Raj</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080d16;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 440px;
+}
+
+.main-box {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: linear-gradient(145deg, #111e30, #080f1b);
+    border: 1px solid #263d55;
+    border-radius: 18px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 35px rgba(0, 153, 255, 0.12);
+}
+
+.logo {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00c6ff, #0066ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    box-shadow: 0 0 25px #008cff55;
+}
+
+.tag {
+    color: #36c5ff;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: clamp(20px, 5vw, 27px);
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+
+.telegram-name {
+    color: #a8bfd4;
+    font-size: 13px;
+    margin-bottom: 19px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+.features span {
+    font-size: 11px;
+    background: #152b40;
+    border: 1px solid #244b69;
+    color: #bceaff;
+    padding: 8px 11px;
+    border-radius: 20px;
+}
+
+.join-btn {
+    width: 85%;
+    max-width: 280px;
+    padding: 15px;
+    background: #12bfff;
+    color: #00111e;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9px;
+    box-shadow: 0 0 12px #00bfff,
+                0 0 28px #00bfff66;
+    transition: 0.3s;
+}
+
+.join-btn:hover {
+    background: #65d9ff;
+    transform: translateY(-2px);
+}
+
+.free-text {
+    color: #8fa9bc;
+    font-size: 10px;
+    margin-top: 13px;
+}
+
+/* DISCLAIMER */
+
+.disclaimer {
+    margin-top: 14px;
+    background: #101a28;
+    border: 1px solid #25384d;
+    border-radius: 10px;
+    padding: 13px;
+    color: #aebdca;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.disclaimer strong {
+    color: #e1edf8;
+}
+
+.disclaimer-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.read-more {
+    color: #38c9ff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.footer {
+    text-align: center;
+    color: #63788c;
+    font-size: 10px;
+    margin-top: 12px;
+}
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2410793659736770');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2410793659736770&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="main-box">
+
+        <div class="logo.png">HR</div>
+
+        <div class="tag">WELCOME TO OUR COMMUNITY</div>
+
+        <h1>TAMIL TRADER<br>HARMONIC RAJ</h1>
+
+        <div class="telegram-name">
+            Official Telegram Trading Community
+        </div>
+
+        <div class="features">
+            <span>📊 Market Analysis</span>
+            <span>📈 Technical Analysis</span>
+            <span>📚 Trading Education</span>
+            <span>🌐 Market Updates</span>
+        </div>
+
+        <a href="https://t.me/YOUR_USERNAME"
+           class="join-btn"
+           target="_blank"
+           rel="noopener">
+           JOIN TELEGRAM CHANNEL →
+        </a>
+
+        <div class="free-text">
+            Join our Telegram community for trading-related
+            educational content.
+        </div>
+
+    </div>
+
+    <div class="disclaimer">
+
+        <strong>DISCLAIMER:</strong>
+
+        Trading involves market risk. All content is provided
+        for educational and informational purposes only.
+
+        <button class="read-more" onclick="toggleDisclaimer()"
+        id="readBtn">Read More +</button>
+
+        <div class="disclaimer-content" id="moreText">
+
+            <p>
+            Tamil Trader Harmonic Raj provides educational
+            information related to financial markets, technical
+            analysis and trading concepts.
+            </p>
+
+            <br>
+
+            <p>
+            Nothing shared through this website, Telegram channel
+            or related platforms should be considered investment
+            advice, financial advice, or a recommendation to buy
+            or sell any financial instrument.
+            </p>
+
+            <br>
+
+            <p>
+            Trading in stocks, options, futures, forex and other
+            financial instruments involves substantial risk.
+            You may lose some or all of your invested capital.
+            Past performance does not guarantee future results.
+            </p>
+
+            <br>
+
+            <p>
+            Always conduct your own research and consult a
+            qualified financial advisor before making any
+            investment decisions.
+            </p>
+
+            <br>
+
+            <p>
+            We do not guarantee profits, fixed returns or
+            financial success. Participation in our Telegram
+            community is voluntary and at your own discretion.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2026 Tamil Trader Harmonic Raj. All Rights Reserved.
+    </div>
+
+</div>
+
+<script>
+function toggleDisclaimer() {
+    const content = document.getElementById("moreText");
+    const button = document.getElementById("readBtn");
+
+    if (content.style.display === "block") {
+        content.style.display = "none";
+        button.innerText = "Read More +";
+    } else {
+        content.style.display = "block";
+        button.innerText = "Read Less −";
+    }
+}
+</script>
+
+</body>
+</html>
